@@ -1,0 +1,25 @@
+{
+  "name": "compropago-dinamic-button",
+  "authors": [
+    "Eduardo Aguilar Yépez <dante.aguilar41@gmail.com>"
+  ],
+  "description": "Creacion de botones dinamicos para generación de ordenes en ComproPago",
+  "main": "src/cpbutton.js",
+  "keywords": [
+    "button",
+    "compropago",
+    "dinamic",
+    "payments",
+    "gateway",
+    "cash"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/compropago/dinamic-buttons",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
