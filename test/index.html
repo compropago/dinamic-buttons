@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>test</title>
-
-    <script src="../src/cpbutton.js"></script>
 </head>
 <body>
 
-<div id="container">
-    <script>
-        cpbutton({
-            'public_key': 'pk_test_638e8b14112423a086',
-            'container': '#container',
-            'order_id':{
-                'status': true,
-                'type': 'text',
-                'value': '123'
-            }
-        }).render();
-    </script>
-</div>
+<div id="container"></div>
 
+<script src="../src/cpbutton.js"></script>
+<script>
+    cpbutton({
+        public_key: 'pk_test_638e8b14112423a086',
+        container: '#container',
+        order_id: {
+            value: '123',
+            type: 'text'
+        },
+        order_name : { value: 'asd'},
+        order_price: { value: '123.45'},
+        success_url: { value: 'http://localhost:63342/dinamic_button/test/index.html?_ijt=1r94mp4uftstavuacd9dkc1j06'}
+    }).render();
+</script>
 </body>
 </html>
